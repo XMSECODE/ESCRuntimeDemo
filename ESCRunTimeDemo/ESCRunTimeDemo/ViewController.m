@@ -54,7 +54,10 @@
     [ViewController class_function3];
     
 }
-
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    NSLog(@"viewDidAppear");
+}
 void functionMethod1(id obj, SEL _cmd) {
     NSLog(@"Doing functionMethod1   %@",obj);
 }

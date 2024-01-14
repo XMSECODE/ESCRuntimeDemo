@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5F52932B5376E800D586F6 /* UIViewController+ESC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F52922B5376E800D586F6 /* UIViewController+ESC.m */; };
 		F06610412241DF2100FC8267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06610402241DF2100FC8267 /* AppDelegate.m */; };
 		F06610442241DF2100FC8267 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06610432241DF2100FC8267 /* ViewController.m */; };
 		F06610472241DF2100FC8267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06610452241DF2100FC8267 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5F52912B5376E800D586F6 /* UIViewController+ESC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ESC.h"; sourceTree = "<group>"; };
+		5C5F52922B5376E800D586F6 /* UIViewController+ESC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ESC.m"; sourceTree = "<group>"; };
 		F066103C2241DF2100FC8267 /* ESCRunTimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESCRunTimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F066103F2241DF2100FC8267 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F06610402241DF2100FC8267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				F06610562241DF4800FC8267 /* ESCPersonModel.m */,
 				F06610582241E18100FC8267 /* ESCPersonModel+Test.h */,
 				F06610592241E18100FC8267 /* ESCPersonModel+Test.m */,
+				5C5F52912B5376E800D586F6 /* UIViewController+ESC.h */,
+				5C5F52922B5376E800D586F6 /* UIViewController+ESC.m */,
 			);
 			path = ESCRunTimeDemo;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				F06610442241DF2100FC8267 /* ViewController.m in Sources */,
 				F066104F2241DF2500FC8267 /* main.m in Sources */,
+				5C5F52932B5376E800D586F6 /* UIViewController+ESC.m in Sources */,
 				F066105A2241E18100FC8267 /* ESCPersonModel+Test.m in Sources */,
 				F06610572241DF4800FC8267 /* ESCPersonModel.m in Sources */,
 				F06610412241DF2100FC8267 /* AppDelegate.m in Sources */,
